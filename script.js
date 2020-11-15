@@ -42,7 +42,6 @@ function bubbleSort(items) {
     var length = items.length;
     //Number of passes
     for (var i = 0; i < length; i++) {
-        //Notice that j < (length - i)
         for (var j = 0; j < (length - i - 1); j++) {
             //Compare the adjacent positions
             if (items[j] > items[j + 1]) {
